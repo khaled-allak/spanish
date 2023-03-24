@@ -17,4 +17,5 @@ xhr.onreadystatechange = function () {
         // set the innerHTML of the data element to the html string
         document.querySelector("#data").innerHTML = html;
     } else {
-        console.log("error");
+        console.log("error");}
+    }
