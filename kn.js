@@ -1,6 +1,6 @@
 var kj = document.createElement('div');
 kj.setAttribute('id', 'data')
-document.body.append(paarent);
+document.body.append(kj);
 document.body.style.textAlign = 'center'
 
 var xhr = new XMLHttpRequest();
@@ -18,5 +18,3 @@ xhr.onreadystatechange = function () {
         document.querySelector("#data").innerHTML = html;
     } else {
         console.log("error");
-    }
-}
